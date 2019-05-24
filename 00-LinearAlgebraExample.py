@@ -2,6 +2,8 @@
 #7
 import numpy as np
 import sympy as sp
+import linearAlgebra as la 
+
 
 a = np.matrix('1 2; 3 4')
 print('Ex.1 Construct matrix using "np.matrix()"')
