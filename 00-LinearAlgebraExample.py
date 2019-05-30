@@ -36,3 +36,14 @@ print(sp.Matrix([[3, -2, -6],[1, 6, 3]]).rref())
 print('Ex.7 matrix transpose')
 print(g)
 print(np.transpose(g))
+
+print('Ex.8 matrix concatenation')
+i = [[1, 2], [3, 4]]
+j = [[5, 6]]
+k = [[5],[6]]
+print(np.concatenate((i, j), axis=0))
+#print(np.concatenate((i, j), axis=1))
+print(np.concatenate((i, k), axis=1))
+#print(np.concatenate((i, k), axis=0))
+print(np.concatenate((i, j), axis=None))
+print(np.concatenate((i, k), axis=None))
