@@ -16,8 +16,6 @@ A2TA2b2 = np.concatenate((A2TA2, A2Tb2), axis=1)
 print(A2TA2b2)
 print(sp.Matrix(A2TA2b2).rref())
 print()
-<<<<<<< HEAD
-=======
 
 # 4
 A4 = [[1, 3],[1, -1],[1, 1]]
@@ -38,4 +36,3 @@ ATAb12 = [[3, 2, -2, 13],[2, 3, 0, 14],[-2, 0, 3, -5]]
 print('#12')
 print(sp.Matrix(ATAb12).rref())
 print()
->>>>>>> 8b3a57530fc576b2bd27cae33520a0e43ae49a03
