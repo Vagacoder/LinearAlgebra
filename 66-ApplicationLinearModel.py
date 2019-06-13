@@ -1,5 +1,5 @@
 # 6.6 Application of Linear Model
-import numpy as numpy
+import numpy as np
 import sympy as sp
 
 
